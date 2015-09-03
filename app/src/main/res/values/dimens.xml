@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="collections_list_width_for_landscape">280dp</dimen>
+    <dimen name="floating_action_btn_margin">16dp</dimen>
+    <dimen name="list_item_corner_radius">5dp</dimen>
+    <dimen name="dialog_container_padding">24dp</dimen>
+    <dimen name="dialog_element_padding">8dp</dimen>
+    <dimen name="dialog_button_min_width">64dp</dimen>
+    <dimen name="dialog_button_container_height">48dp</dimen>
+    <dimen name="dialog_button_height">36dp</dimen>
+    <dimen name="dialog_min_width">280dp</dimen>
+    <dimen name="list_item_padding">18dp</dimen>
+    <dimen name="side_list_item_margin">5dp</dimen>
+</resources>

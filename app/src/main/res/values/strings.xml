@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ID20</string>
+    <string name="menu">Меню</string>
+    <string name="wait">ждите…</string>
+    <string name="ok">OK</string>
+    <string name="network_is_not_available">Сеть недоступна!</string>
+    <string name="do_you_want_to_exit">Вы действительно хотите выйти?</string>
+
+    <!-- Авторизация  -->
+    <string name="login_fragment_title">Авторизация</string>
+    <string name="tv_enter">Войти</string>
+    <string name="tv_send">Отправить</string>
+    <string name="tv_enter_logo">Система электронного\nуправления для копроративных\nавтопарков</string>
+    <string name="et_hint_login">Логин</string>
+    <string name="et_hint_pass">Пароль</string>
+    <string name="fill_inn_all_fields">Заполните все поля!</string>
+
+    <!-- Главное меню -->
+    <string name="tv_button_claims">Заявки</string>
+    <string name="tv_button_tasks">Задачи</string>
+    <string name="tv_button_waybills">Путевые листы</string>
+    <string name="tv_button_settings">Настройки</string>
+
+    <!-- Заявки  -->
+    <string name="tv_button_add_claim">Подать заявку</string>
+    <string name="tv_button_my_claims">Мои заявки</string>
+    <string name="tv_button_profile">Профиль</string>
+
+    <!-- Создание заявки  -->
+    <string name="add_claim_header">Создание заявки</string>
+    <string name="edit_claim_header">Редактирование заявки</string>
+    <string name="claim_date">Дата поездки</string>
+    <string name="claim_time">Время поездки</string>
+    <string name="first_name">Фамилия</string>
+    <string name="name">Имя</string>
+    <string name="middle_name">Отчество</string>
+    <string name="contact_info">Контактная информация</string>
+    <string name="address">Адрес подачи</string>
+    <string name="addition_points">Промежуточные точки</string>
+    <string name="addition_instructions">Дополнительные инструкции</string>
+    <string name="destination_address">Адрес назначения</string>
+    <string name="trip_goal">Цель поездки</string>
+    <string name="passenger">Пассажир:</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="passenger_fio">ФИО пассажира</string>
+    <string name="power_of_attorney_requirement">Необходимость в доверенности:</string>
+    <string name="pass_requirement">Необходимость в пропуске:</string>
+    <string name="create_claim">Создать заявку</string>
+    <string name="save_claim">Сохранить изменения</string>
+    <string name="wrong_date">Неверная дата</string>
+    <string name="wrong_time">Неверное время</string>
+    <string name="hint_passenger_name">ФИО пассажира</string>
+    <string name="hint_passenger_phone">Телефон пассажира</string>
+    <string name="claim_sent">Заявка отправлена!</string>
+
+    <!-- Мои заявки  -->
+    <string name="tv_button_all">Все</string>
+    <string name="tv_button_new">Новые</string>
+    <string name="tv_button_in_process">В обработке</string>
+    <string name="tv_button_accepted">Принятые</string>
+    <string name="tv_button_completed">Выполненные</string>
+    <string name="tv_button_archive_requests">Архив заявок</string>
+    <string name="claim_accepted">Заявка принята</string>
+
+    <!-- Просмотр заявки  -->
+    <string name="claim_number">Заявка № %1$s</string>
+    <string name="claim_date_look">Дата поездки:</string>
+    <string name="claim_time_look">Время поездки:</string>
+    <string name="first_name_look">Фамилия:</string>
+    <string name="name_look">Имя:</string>
+    <string name="middle_name_look">Отчество:</string>
+    <string name="contact_info_look">Контактная информация:</string>
+    <string name="address_look">Адрес подачи:</string>
+    <string name="addition_points_look">Промежуточные точки:</string>
+    <string name="addition_instructions_look">Дополнительные инструкции:</string>
+    <string name="destination_address_look">Адрес назначения:</string>
+    <string name="trip_goal_look">Цель поездки:</string>
+    <string name="passenger_look">Пассажир:</string>
+    <string name="yes_look">да</string>
+    <string name="no_look">нет</string>
+    <string name="accept">Принять</string>
+    <string name="reject">Отказаться</string>
+    <string name="edit">Редактировать</string>
+
+    <!-- Задачи  -->
+    <string name="tasks_number">№ %1$s</string>
+    <string name="tasks_sender">Отправитель</string>
+    <string name="tv_button_new_tasks">Новые задачи</string>
+    <string name="tv_button_all_tasks">Все задачи</string>
+    <string name="tv_button_messages">Сообщения</string>
+    <string name="tv_sender">Отправитель:</string>
+    <string name="tv_recipient">Адресат:</string>
+    <string name="tv_task_text">Текст задачи:</string>
+    <string name="tv_task_status">Статус задачи:</string>
+    <string name="tv_task_date_creation">Дата создания:</string>
+    <string name="tv_task_date_complete">Дата выполнения:</string>
+    <string name="complete">Выполнить</string>
+    <string name="task_accepted">Задача принята</string>
+    <string name="task_completed">Задача выполнена</string>
+    <string name="dialog_question_accept_task">Принять задачу?</string>
+    <string name="dialog_question_complete_task">Выполнить задачу?</string>
+
+    <!-- Все задачи  -->
+    <string name="tv_button_rejected">Отклоненные</string>
+    <string name="tv_button_canceled">Отмененные</string>
+    <string name="tv_button_archive_tasks">Архив задач</string>
+
+    <!-- Путевые листы -->
+    <string name="tv_button_new_waybill">Создать путевой лист</string>
+    <string name="tv_button_waybills_list">Путевые листы</string>
+    <string name="tv_button_active">Активные</string>
+    <string name="tv_button_closed">Закрытые</string>
+    <string name="tv_button_prepared">Подготовленные</string>
+    <string name="tv_button_archive_waybills">Архив путевых</string>
+
+    <!-- Типы дополнительных расходов -->
+    <string name="addition_cost_empty">Тип расходов</string>
+    <string name="addition_cost_fueling">Заправка</string>
+    <string name="addition_cost_washing">Мойка</string>
+    <string name="addition_cost_parking">Парковка</string>
+    <string name="addition_cost_others">Прочие расходы</string>
+
+    <!-- Метод оплаты -->
+    <string name="payment_empty">Метод оплаты</string>
+    <string name="payment_cash">Наличные</string>
+    <string name="payment_fuel_card">Топливная карта</string>
+
+    <!-- Создание путевого листа -->
+    <string name="new_waybill_creating">Создание путевого листа</string>
+    <string name="car">Автомобиль</string>
+    <string name="mileage">Текущий пробег, км</string>
+    <string name="attached_claims">Прикрепленные заявки:</string>
+    <string name="fuel">Остаток топлива, л</string>
+    <string name="create_waybill">Создать путевой лист</string>
+    <string name="there_are_no_climes">Заявки отсутствуют</string>
+    <string name="waybill_created">Путевой лист создан</string>
+    <string name="claim_not_accepted">не принята!</string>
+
+    <!-- Просмотр путевого листа  -->
+    <string name="waybill_number">Путевой №</string>
+    <string name="waybill_date">Дата и время открытия:</string>
+    <string name="waybill_driver">Водитель:</string>
+    <string name="waybill_car">Автомобиль:</string>
+    <string name="waybill_car_init_mileage">Начальный пробег, км:</string>
+    <string name="waybill_car_init_fuel_level">Начальный остаток топлива, л:</string>
+    <string name="waybill_status">Статус:</string>
+    <string name="close">Закрыть</string>
+
+    <!-- Закрытие путевого листа  -->
+    <string name="close_waybill">Закрытие путевого листа</string>
+    <string name="tv_costs">Затраты</string>
+    <string name="tv_car_info">Автомобиль(марка, модель, гос. номер):</string>
+    <string name="hint_fuel_count">Топлива заправлено, л</string>
+    <string name="hint_payment_value">Оплачено, руб</string>
+    <string name="hint_cost">Цена, руб</string>
+    <string name="hint_count">Количество</string>
+    <string name="hint_goods_name">Наименование</string>
+    <string name="waybill_was_closed">Путевой лист закрыт!</string>
+
+    <!-- Редактирование путевого листа  -->
+    <string name="edit_waybill">Редактирование путевого листа</string>
+    <string name="waybill_was_changed">Путевой лист изменен!</string>
+
+    <!-- Настройки  -->
+    <string name="tv_change_pass">Изменить пароль</string>
+    <string name="btn_change_data">Изменить данные</string>
+    <string name="btn_change_pass">Сохранить</string>
+
+    <string name="tv_surname">Фамилия</string>
+    <string name="tv_name">Имя</string>
+    <string name="tv_fathername">Отчество</string>
+    <string name="tv_login">Логин</string>
+    <string name="tv_phone">Телефон</string>
+
+    <string name="tv_old_pass">Старый пароль</string>
+    <string name="tv_new_pass">Новый пароль</string>
+    <string name="pass_not_valid">Новый пароль не совпадает!</string>
+    <string name="tv_repeat_new_pass">Подтвердите новый пароль</string>
+    <string name="change_request_is_success">Данные успешно изменены!</string>
+    <string name="change_pass_request_is_success">Пароль успешно изменен!</string>
+
+    <!-- Статусы  -->
+    <string name="status_new">Новый</string>
+    <string name="status_performed">В обработке</string>
+    <string name="status_accepted">Принят</string>
+    <string name="status_completed">Выполнен</string>
+    <string name="status_canceled">Отменен</string>
+    <string name="status_active">Активный</string>
+    <string name="status_closed">Закрытый</string>
+    <string name="status_prepared">Подготовленный</string>
+
+    <!-- Доступы  -->
+    <string name="only_for_driver">Только для водителей!</string>
+    <string name="only_for_user">Только для пользователей!</string>
+
+    <!-- Архив  -->
+    <string name="archive_header">Архив</string>
+    <string name="from">С</string>
+    <string name="till">По</string>
+    <string name="search">Искать</string>
+
+
+</resources>

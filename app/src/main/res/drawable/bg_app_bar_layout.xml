@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item android:top="4dp">
+                <shape>
+                    <solid android:color="@color/shadow_btn_color"/>
+                </shape>
+            </item>
+            <item android:bottom="4dp">
+                <shape>
+                    <solid android:color="@color/shadow_btn_color"/>
+                </shape>
+            </item>
+            <item android:bottom="4dp">
+                <shape>
+                    <solid android:color="@color/shadow_btn_color"/>
+                </shape>
+            </item>
+            <item android:bottom="4dp">
+                <shape>
+                    <solid android:color="@color/shadow_btn_color"/>
+                </shape>
+            </item>
+            <item android:bottom="4dp">
+                <shape>
+                    <solid android:color="@color/primary_shade"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="primary_light_half_transparent">#7fBBDEFB</color>
+    <color name="primary_shade">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="accent_shade">#ff00ae2f</color>
+    <color name="accent_light">#00E676</color>
+    <color name="half_transparent">#7F000000</color>
+    <color name="shadow_btn_color">#0D000000</color>
+    <color name="white_half">#80ffffff</color>
+    <color name="white">#ffffff</color>
+
+
+    <color name="status_new_red">#fa3238</color>
+    <color name="status_in_progress_yellow">#ff9000</color>
+    <color name="status_accepted_blue">#2196F3</color>
+    <color name="status_active_orange">#ff9000</color>
+    <color name="status_closed_green">#009523</color>
+    <color name="status_prepared_purp">#BC0E91</color>
+    <color name="status_completed_green">#009523</color>
+
+    <color name="status_new_red_pressed">#A31014</color>
+    <color name="status_in_progress_yellow_pressed">#A65E00</color>
+    <color name="status_accepted_blue_pressed">#1976D2</color>
+    <color name="status_active_orange_pressed">#A65E00</color>
+    <color name="status_closed_green_pressed">#006115</color>
+    <color name="status_prepared_purp_pressed">#7A055D</color>
+    <color name="status_completed_green_pressed">#006115</color>
+
+</resources>

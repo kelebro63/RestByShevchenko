@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/task_root_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    xmlns:fab="http://schemas.android.com/tools">
+
+    <com.melnykov.fab.ObservableScrollView
+        android:id="@+id/scroll_view_task_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ru.ID20.app.ui.widgets.CustomFontTextView
+                android:id="@+id/tvTaskNumber"
+                style="@style/DetailsTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                font:typeface="OpenSans-Bold.ttf"/>
+
+            <ru.ID20.app.ui.widgets.CustomFontTextView
+                style="@style/DetailsTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/tv_sender"
+                font:typeface="OpenSans-Light.ttf"/>
+
+            <ru.ID20.app.ui.widgets.CustomFontTextView
+                android:id="@+id/tvTaskSender"
+                style="@style/DetailsTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                font:typeface="OpenSans-Bold.ttf"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_list_item"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ru.ID20.app.ui.widgets.CustomFontTextView
+                    style="@style/ListItemTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_task_text"
+                    android:textSize="14sp"
+                    font:typeface="OpenSans-Light.ttf"/>
+
+                <ru.ID20.app.ui.widgets.CustomFontTextView
+                    android:id="@+id/tvTaskText"
+                    style="@style/ListItemTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textSize="14sp"
+                    font:typeface="OpenSans-Bold.ttf"/>
+
+            </LinearLayout>
+
+            <ru.ID20.app.ui.widgets.CustomFontTextView
+                style="@style/DetailsTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/tv_task_status"
+                font:typeface="OpenSans-Light.ttf"/>
+
+            <ru.ID20.app.ui.widgets.CustomFontTextView
+                android:id="@+id/tvTaskStatus"
+                style="@style/DetailsTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                font:typeface="OpenSans-Bold.ttf"/>
+
+            <ru.ID20.app.ui.widgets.CustomFontTextView
+                style="@style/DetailsTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/tv_task_date_creation"
+                font:typeface="OpenSans-Light.ttf"/>
+
+            <ru.ID20.app.ui.widgets.CustomFontTextView
+                android:id="@+id/tvTaskDateCreation"
+                style="@style/DetailsTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                font:typeface="OpenSans-Bold.ttf"/>
+
+            <ru.ID20.app.ui.widgets.CustomFontTextView
+                style="@style/DetailsTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/tv_task_date_complete"
+                font:typeface="OpenSans-Light.ttf"/>
+
+            <ru.ID20.app.ui.widgets.CustomFontTextView
+                android:id="@+id/tvTaskDateComplete"
+                style="@style/DetailsTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                font:typeface="OpenSans-Bold.ttf"/>
+
+        </LinearLayout>
+    </com.melnykov.fab.ObservableScrollView>
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/btnTaskAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="@dimen/floating_action_btn_margin"
+        android:layout_marginEnd="@dimen/floating_action_btn_margin"
+        android:layout_marginRight="@dimen/floating_action_btn_margin"
+        android:clickable="true"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/ic_done"
+        android:visibility="gone"
+        fab:fab_type="normal"
+        fab:fab_shadow="true"
+        />
+
+</android.support.design.widget.CoordinatorLayout>

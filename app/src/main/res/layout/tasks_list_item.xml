@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/taskItemRootView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/side_list_item_margin"
+    android:layout_marginLeft="@dimen/side_list_item_margin"
+    android:layout_marginRight="@dimen/side_list_item_margin"
+    android:layout_marginEnd="@dimen/side_list_item_margin"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <ru.ID20.app.ui.widgets.CustomFontTextView
+            android:id="@+id/tvTaskItemNumber"
+            style="@style/ListItemTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            tools:text="16"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            font:typeface="OpenSans-Bold.ttf"/>
+
+    <ru.ID20.app.ui.widgets.CustomFontTextView
+        android:id="@+id/tvCreator"
+        style="@style/ListItemTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:text="@string/tv_sender"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        font:typeface="OpenSans-Bold.ttf"
+        android:layout_below="@+id/tvTaskItemNumber"/>
+
+    <ru.ID20.app.ui.widgets.CustomFontTextView
+        android:id="@+id/tvTaskCreator"
+        style="@style/ListItemTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:textAllCaps="true"
+        tools:text="Ivan Petrovich"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        font:typeface="OpenSans-Bold.ttf"
+        android:layout_below="@+id/tvCreator"/>
+
+    <ru.ID20.app.ui.widgets.CustomFontTextView
+            android:id="@+id/tvTaskItemDate"
+            style="@style/ListItemTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="left"
+            tools:text="22/22/1233"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            font:typeface="OpenSans-Light.ttf"
+            android:layout_below="@+id/tvTaskCreator"/>
+
+
+</RelativeLayout>
+
+

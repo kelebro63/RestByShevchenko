@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/claims_item"
+            android:icon="@mipmap/ic_menu_claims"
+            android:title="@string/tv_button_claims"/>
+        <item
+            android:id="@+id/waybills_item"
+            android:icon="@mipmap/ic_menu_waybills"
+            android:title="@string/tv_button_waybills"/>
+
+        <item
+            android:id="@+id/tasks_item"
+            android:icon="@mipmap/ic_menu_tasks"
+            android:title="@string/tv_button_tasks"/>
+
+        <item
+            android:id="@+id/settings_item"
+            android:icon="@mipmap/ic_menu_settings"
+            android:title="@string/tv_button_settings"/>
+    </group>
+
+</menu>

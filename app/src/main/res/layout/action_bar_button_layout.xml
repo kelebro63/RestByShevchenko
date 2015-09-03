@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.ID20.app.ui.widgets.MyActionView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="?attr/actionBarSize"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@drawable/bg_ab_buttons"
+    android:clickable="true"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/img_ab_button_logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        tools:src="@mipmap/menu_claims_logo"/>
+
+    <ru.ID20.app.ui.widgets.CustomFontTextView
+        android:id="@+id/tv_new_items_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@mipmap/message_indicator"
+        android:shadowColor="@color/half_transparent"
+        android:shadowRadius="2"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:textSize="12sp"
+        font:typeface="OpenSans-Light.ttf"
+        tools:text="10"/>
+
+</ru.ID20.app.ui.widgets.MyActionView>

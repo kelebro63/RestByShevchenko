@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:font="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:minWidth="@dimen/dialog_min_width"
+    >
+
+    <FrameLayout
+        android:id="@+id/dialog_message_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dialog_button_container_height"
+        android:padding="@dimen/dialog_container_padding">
+
+        <ru.ID20.app.ui.widgets.CustomFontTextView
+            android:id="@+id/tv_dialog_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            font:typeface="OpenSans-Bold.ttf"
+            tools:text="Принять задачу?"
+            />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dialog_button_container_height"
+        android:layout_gravity="bottom|right"
+        android:layout_marginEnd="@dimen/dialog_element_padding"
+        android:layout_marginLeft="@dimen/dialog_element_padding"
+        android:layout_marginRight="@dimen/dialog_element_padding"
+        android:layout_marginStart="@dimen/dialog_element_padding"
+        android:orientation="horizontal">
+
+        <ru.ID20.app.ui.widgets.CustomFontButton
+            android:id="@+id/btn_dialog_negative"
+            style="@style/DialogButtonsStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dialog_button_height"
+            android:text="@string/no"
+            android:visibility="gone"
+            font:typeface="OpenSans-Bold.ttf"/>
+
+        <ru.ID20.app.ui.widgets.CustomFontButton
+            android:id="@+id/btn_dialog_positive"
+            style="@style/DialogButtonsStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dialog_button_height"
+            android:layout_marginLeft="@dimen/dialog_element_padding"
+            android:layout_marginStart="@dimen/dialog_element_padding"
+            android:text="@string/yes"
+            font:typeface="OpenSans-Bold.ttf"/>
+    </LinearLayout>
+</FrameLayout>
