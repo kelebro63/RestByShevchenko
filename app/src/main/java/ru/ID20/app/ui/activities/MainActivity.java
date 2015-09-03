@@ -79,7 +79,7 @@ public class MainActivity extends AbstractBaseActionBarActivity {
         toolBarClaimMenuItem = menu.findItem(R.id.ab_claims_item);
         toolBarTaskMenuItem = menu.findItem(R.id.ab_tasks_item);
         ((MyActionView) toolBarClaimMenuItem.getActionView()).setImage(getResources().getDrawable(R.mipmap.menu_claims_logo));
-        ((MyActionView) toolBarTaskMenuItem.getActionView()).setImage(getResources().getDrawable(R.mipmap.menu_tasks_logo));
+        ((MyActionView) toolBarTaskMenuItem.getActionView()).setImage(getResources().getDrawable(R.mipmap.menu_claims_logo));
 
         if (newTasksItemCount > 0) {
             showNewItemCount(toolBarTaskMenuItem, newTasksItemCount);
